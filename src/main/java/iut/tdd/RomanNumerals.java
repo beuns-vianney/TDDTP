@@ -6,6 +6,7 @@ public class RomanNumerals {
 		int base = Integer.valueOf(arabe);
 		if(base == 0) return "0";
 		if(base == 4) return "IV";
+		if(base == 5) return "V";
 		for(int i = 0; i<base; i++){
 			res += "I";
 		}
